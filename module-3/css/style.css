@@ -1,0 +1,60 @@
+
+*{margin:0px;
+padding: 0px;}
+.navbar{
+    border: 1px solid black;
+    font-size:1.5em;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 50px;
+}
+
+.heading{
+    font-size:x-large;
+    margin-bottom: 40px;
+
+}
+.food{    
+    overflow: auto;
+    margin: 0px 10px 10px 10px;
+    height: 300px;
+    
+    
+    
+    
+}
+.list{
+    margin-top: 2px;
+}
+.list li{
+    border: 0.5px solid black;
+text-align: center;}
+#head{
+    border-top: 2px solid black;
+}
+.list a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    
+}
+.list a:hover{
+    color: white;
+
+}
+.container{
+    box-sizing:border-box;
+    text-align: center;
+    
+    
+    
+
+}
+.menu{
+    display: none;
+}
+@media (max-width:575px){
+    .menu{
+        display: contents;
+    }
+}
